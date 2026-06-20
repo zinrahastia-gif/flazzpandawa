@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html amp lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+  <title>PANDAWA4D - Portal Game Online dengan Akses Instan dan Komunitas Aktif</title>
+  <meta name="description" content="PANDAWA4D adalah portal game online dengan akses instan ke permainan Arcade, FPS, Online Match, forum diskusi komunitas aktif, dan update info game terbaru." />
+  <meta name="robots" content="index,follow" />
+  <link href="https://flazzpandawa.com/assets/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="canonical" href="https://flazzpandawa.com/" />
+  <meta property="og:url" content="https://flazzpandawa.com/" />
+  <meta property="og:site_name" content="PANDAWA4D" />
+  <meta property="og:image:alt" content="PANDAWA4D" />
+  <meta property="og:image" content="https://flazzpandawa.com/assets/flazz-pdw4d.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js" />
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <style amp-boilerplate>
+    body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both }
+    @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } }
+    @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } }
+    @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } }
+    @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } }
+    @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } }
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none }
+    </style>
+  </noscript>
+
+  <style amp-custom>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    :root {
+      --primary: #FFD700;
+      --primary-dark: #B8860B;
+      --secondary: #F5C518;
+      --accent: #FFC107;
+      --bg-dark: #0a0800;
+      --card-bg: rgba(20, 15, 5, 0.9);
+      --text: #ffffff;
+      --gold-glow: rgba(255, 215, 0, 0.6);
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg-dark);
+      background-image:
+        radial-gradient(circle at 10% 20%, rgba(184, 134, 11, 0.25) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(255, 193, 7, 0.2) 0%, transparent 40%),
+        radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.08) 0%, transparent 60%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 20px 10px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background:
+        radial-gradient(1px 1px at 20% 30%, rgba(255, 215, 0, 0.8) 0%, transparent 100%),
+        radial-gradient(1px 1px at 40% 70%, rgba(255, 215, 0, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 60% 20%, rgba(255, 193, 7, 0.7) 0%, transparent 100%),
+        radial-gradient(1px 1px at 80% 60%, rgba(255, 215, 0, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 10% 80%, rgba(245, 197, 24, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 40%, rgba(255, 215, 0, 0.7) 0%, transparent 100%),
+        radial-gradient(1px 1px at 30% 50%, rgba(255, 193, 7, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 10%, rgba(255, 215, 0, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 50% 90%, rgba(245, 197, 24, 0.7) 0%, transparent 100%);
+      pointer-events: none;
+      animation: sparkle 4s ease-in-out infinite alternate;
+      z-index: 0;
+    }
+
+    @keyframes sparkle {
+      0% { opacity: 0.4; }
+      50% { opacity: 1; }
+      100% { opacity: 0.6; }
+    }
+
+    .container {
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 25px 20px;
+      border: 1px solid rgba(255, 215, 0, 0.25);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(255, 215, 0, 0.1), inset 0 0 20px rgba(255, 215, 0, 0.03);
+    }
+
+    header {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      filter: drop-shadow(0 0 18px var(--gold-glow));
+      transition: transform 0.3s ease;
+    }
+    .logo:hover { transform: scale(1.05); }
+
+    .title-wrap {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .badge-top {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 20px;
+      background: rgba(184, 134, 11, 0.3);
+      color: var(--primary);
+      border: 1px solid rgba(255, 215, 0, 0.5);
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+    }
+
+    .title-wrap h1 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #FFD700 0%, #FFF8DC 40%, #FFD700 60%, #DAA520 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: none;
+      filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.3));
+    }
+
+    .title-wrap p {
+      font-size: 12px;
+      color: #c9a84c;
+      font-weight: 300;
+    }
+
+    .welcome {
+      background: rgba(184, 134, 11, 0.15);
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+      border-left: 3px solid var(--primary);
+    }
+
+    .welcome h3 {
+      font-size: 12px;
+      color: #FFD700;
+      font-family: 'Courier New', Courier, monospace; 
+      overflow: hidden;
+      border-right: .15em solid var(--secondary);
+      white-space: nowrap;
+      margin: 0 auto;
+      width: fit-content;
+      animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
+
+    @keyframes typing { from { width: 0 } to { width: 100% } }
+    @keyframes blink-caret { from, to { border-color: transparent } 50% { border-color: var(--primary); } }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      border-radius: 50px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 12px;
+      position: relative;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #FFD700 0%, #B8860B 50%, #DAA520 100%);
+      color: #1a1200;
+      box-shadow: 0 4px 20px rgba(255, 215, 0, 0.5), 0 0 40px rgba(255, 215, 0, 0.15);
+      animation: pulse 2s infinite;
+      border: 1px solid rgba(255, 215, 0, 0.6);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 215, 0, 0.08);
+      color: var(--primary);
+      border: 1px solid rgba(255, 215, 0, 0.5);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid rgba(255, 215, 0, 0.3);
+      color: #c9a84c;
+      font-size: 12px;
+      padding: 10px;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.6); }
+      70% { box-shadow: 0 0 0 12px rgba(255, 215, 0, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0); }
+    }
+
+    .hero {
+      margin: 20px 0;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.1);
+      border: 1px solid rgba(255, 215, 0, 0.2);
+    }
+
+    .table-wrapper {
+      background: rgba(184, 134, 11, 0.08);
+      border-radius: 15px;
+      overflow: hidden;
+      margin-top: 10px;
+      border: 1px solid rgba(255, 215, 0, 0.15);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+
+    th {
+      background: linear-gradient(90deg, #B8860B, #DAA520, #FFD700);
+      color: #1a1200;
+      padding: 12px;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    td {
+      padding: 12px;
+      background: rgba(255, 215, 0, 0.03);
+      border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+      vertical-align: middle;
+    }
+    
+    tr:last-child td { border-bottom: none; }
+
+    td:first-child {
+      font-weight: 600;
+      font-size: 13px;
+      color: #e6c965;
+    }
+
+    .btn-mini {
+      display: inline-block;
+      padding: 6px 15px;
+      background: linear-gradient(135deg, #FFD700, #DAA520);
+      color: #1a1200;
+      font-weight: 700;
+      font-size: 11px;
+      border-radius: 20px;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);
+    }
+
+    .copyright {
+      margin-top: 25px;
+      text-align: center;
+      font-size: 11px;
+      color: #8a7030;
+    }
+    .copyright a { color: var(--primary); text-decoration: none; text-shadow: 0 0 6px rgba(255, 215, 0, 0.3); }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+          <amp-img
+            class="logo"
+            src="https://flazzpandawa.com/assets/logo-pandawa4d.png"
+            alt="Logo PANDAWA4D"
+            width="200"
+            height="55"
+            layout="intrinsic">
+          </amp-img>
+      </header>
+
+      <div class="title-wrap">
+        <span class="badge-top">OFFICIAL PANDAWA4D</span>
+        <h1>PANDAWA4D - Portal Game Online dengan Akses Instan dan Komunitas Aktif</h1>
+        
+      </div>
+
+      <div class="welcome">
+        <h3>Selamat Datang Di Portal Game Online Kami</h3>
+      </div>
+
+      <a href="https://izin-abangku.site/reigen1" target="_blank" rel="nofollow noreferrer noopener" class="btn btn-primary">
+        ⚡ DAFTAR PANDAWA4D
+      </a>
+      
+      <a href="https://izin-abangku.site/reigen" target="_blank" rel="nofollow noreferrer noopener" class="btn btn-secondary">
+        🎮 LOGIN PANDAWA4D
+      </a>
+
+      <div class="hero">
+        <amp-img
+          src="https://flazzpandawa.com/assets/flazz-pdw4d.jpg"
+          width="600"
+          height="600"
+          layout="responsive"
+          alt="PANDAWA4D - Portal Game Online dengan Akses Instan dan Komunitas Aktif">
+        </amp-img>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th style="text-align:left; padding-left:20px;">Akses PANDAWA4D</th>
+              <th style="text-align:right; padding-right:20px;">🚀</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>LIVE CHAT 24 JAM</td>
+              <td style="text-align:right;">
+                <a href="https://klikku.site/LC-PDW4D" target="_blank" rel="nofollow noreferrer noopener" class="btn-mini">KLIK SINI</a>
+              </td>
+            </tr>
+            <tr>
+              <td>UPDATE RTP</td>
+              <td style="text-align:right;">
+                <a href="https://izin-abangku.site/reigen" target="_blank" rel="nofollow noreferrer noopener" class="btn-mini">KLIK SINI</a>
+              </td>
+            </tr>
+            <tr>
+              <td>PROMO PANDAWA4D</td>
+              <td style="text-align:right;">
+                <a href="https://izin-abangku.site/reigen" target="_blank" rel="nofollow noreferrer noopener" class="btn-mini">KLIK SINI</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <a href="https://klikku.site/WA-PDW4D" target="_blank" rel="nofollow noreferrer noopener" class="btn btn-outline" style="margin-top:15px;">
+        💬 Hubungi WhatsApp
+      </a>
+
+      <p class="copyright">
+        Copyright © 2026 • <a href="https://flazzpandawa.com/">PANDAWA4D</a> | INSTANT ACCESS EVERYTIME
+      </p>
+    </div>
+  </div>
+</body>
+</html>
